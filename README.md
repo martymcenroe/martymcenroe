@@ -17,10 +17,10 @@ I'm a cold, bloodless villain who abhors bureaucracy and synthetic work. It occu
 
 ## Tech Stack
 
-- **Languages:** Python, C++
+- **Languages:** Python, C++, JavaScript, Lisp
 - **Frameworks/Libraries:** [React](https://reactjs.org/), [Node.js](https://nodejs.org/)
 - **Databases:** [MySQL](https://www.mysql.com/), [MongoDB](https://www.mongodb.com/), [PostgreSQL](https://www.postgresql.org/)
-- **Tools:** [Git](https://git-scm.com/), , [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com/)
+- **Tools:** [Git](https://git-scm.com/), [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com/)
 - **Security:** CISSP, CCSP
 - **Electrical Engineer**
 
