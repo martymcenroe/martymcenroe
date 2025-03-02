@@ -10,7 +10,6 @@ I'm a cold, bloodless villain who abhors bureaucracy and synthetic work. It occu
 
 -  I’m currently working on a computer science educational too: athleet.dev
 -  I’m have an idea for a next generation Turing Test. Hint - Can an AI be a pirate?
-- 
 -  I’m looking to contribute to open source projects in computer security.
 -  I’m looking for help...on movie recommendations
 -  How to reach me: Go ahead, connect to me on LinkedIn, what could go wrong?
