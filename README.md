@@ -8,8 +8,8 @@ HaHa, Copilot wrote that
 
 I'm a cold, bloodless villain who abhors bureaucracy and synthetic work. It occurred to me that in this new age of AI I could create everything I always wanted. So, that's what I'm doing. Be my friend. Bring me back to humanity.
 
--  I’m currently working on a computer science educational too: athleet.dev
--  I’m have an idea for a next generation Turing Test. Hint - Can an AI be a pirate?
+-  I’m currently working on a computer science educational tool: athleet.dev
+-  I have an idea for a next generation Turing Test. Hint - Can an AI be a pirate?
 -  I’m looking to contribute to open source projects in computer security.
 -  I’m looking for help...on movie recommendations
 -  How to reach me: Go ahead, connect to me on LinkedIn, what could go wrong?
@@ -17,7 +17,7 @@ I'm a cold, bloodless villain who abhors bureaucracy and synthetic work. It occu
 
 ## Tech Stack
 
-- **Languages:** Python, C++, JavaScript, Lisp
+- **Languages:** Python, C++, JavaScript, Lisp, SQL
 - **Frameworks/Libraries:** [React](https://reactjs.org/), [Node.js](https://nodejs.org/)
 - **Databases:** [MySQL](https://www.mysql.com/), [MongoDB](https://www.mongodb.com/), [PostgreSQL](https://www.postgresql.org/)
 - **Tools:** [Git](https://git-scm.com/), [AWS](https://aws.amazon.com/), [Azure](https://azure.microsoft.com/)
