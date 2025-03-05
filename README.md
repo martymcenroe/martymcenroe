@@ -26,11 +26,11 @@ I'm a cold, bloodless villain who abhors bureaucracy and synthetic work. It occu
 
 ## GitHub Stats
 
-![Marty McWizard's GitHub stats](https://github-readme-stats.vercel.app/api?username=martymcwizard&show_icons=true&theme=radical)
+![Marty McWizard's GitHub stats](https://github-readme-stats.vercel.app/api?username=martymcenroe&show_icons=true&theme=radical)
 
 ## Recent Projects
 
-- [NEC 2017 Analyzer](https://github.com/martymcwizard/nec2017-analyzer): A tool to make sense of the National Electric Code
+- [NEC 2017 Analyzer](https://github.com/martymcenroe/nec2017-analyzer): A tool to make sense of the National Electric Code
 
 ## Connect with Me
 
