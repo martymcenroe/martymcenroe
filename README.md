@@ -89,6 +89,7 @@ This is my active portfolio of enterprise-ready projects. Each repository is bui
 **Management:** Jira • Agile • Sprint Planning  
 **Leadership:** Architecture Reviews • Team Leadership • SVP Presentations • Technical Mentorship  
 **Strategy:** ROI Modeling • Business Cases • Strategic Roadmaps
+
 ## 📊 GitHub Stats
 
 ![martymcenroe's GitHub stats](https://github-readme-stats.vercel.app/api?username=martymcenroe&show_icons=true&theme=radical)
