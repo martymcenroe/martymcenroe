@@ -1,6 +1,6 @@
-### Hi, I'm Marty McEnroe 👋
+### Hi, I'm Marty McEnroe: Principal AI Architect & Enterprise Strategist
 
-I am an **Enterprise Architect** and **AI Strategist** with a deep background in engineering, cloud infrastructure, and application security.
+I am an **Enterprise Architect** and **AI Strategist** with a deep background in engineering, cloud infrastructure, and application security (Professional Engineer, 21 patents, former Director at AT&T) focused on designing and executing secure, scalable, and business-driven AI strategies.
 
 My passion is architecting **robust**, high-value solutions. My architectural philosophy balances elegance and simplicity with a pragmatic focus on execution; I prioritize accelerating the path from concept to robust, working code.
 
