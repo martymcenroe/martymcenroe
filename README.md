@@ -16,19 +16,79 @@ This is my active portfolio of enterprise-ready projects. Each repository is bui
 
 * **[NEC 2017 Analyzer (Domain Tool)](https://github.com/martymcenroe/nec2017-analyzer):** A domain-specific tool for parsing and analyzing the National Electric Code, reflecting my background as a Professional Engineer (PE).
 
-## 🛠️ My Core Technology Stack
+## 🛠️ Technology Stack
 
-This is a curated list of the enterprise-grade technologies I use to build and govern my projects.
+### 🤖 AI/ML & Generative AI
+![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-yellow)
 
-| Category | Technologies |
-| :--- | :--- | :--- |
-| **AI / ML** | PyTorch, TensorFlow, scikit-learn, Hugging Face, OpenCV, YOLO |
-| **GenAI & Agents** | LangChain, LangGraph, RAG Architectures, Vector Search (Chroma, Pinecone) |
-| **Cloud Platforms** | **Azure** (Azure ML, DevOps, Functions), **AWS** (SageMaker, Bedrock, Lambda), **Snowflake** (Cortex, Snowpark) |
-| **MLOps & DevOps** | MLflow, Docker, GitHub Actions, Azure DevOps, SonarQube, Poetry |
-| **Data & APIs** | PostgreSQL, Snowflake, DynamoDB, Redis, FastAPI, Pandas, SQL |
-| **Security & Governance** | AI Governance, Responsible AI, Bias Mitigation, OWASP, SonarQube |
+**Frameworks:** PyTorch • TensorFlow • scikit-learn • Hugging Face Transformers  
+**LLMs:** GPT-4 • Claude • Gemini • Prompt Engineering  
+**Agent Systems:** LangChain • LangGraph • LangSmith • Multi-Agent Orchestration  
+**Computer Vision:** OpenCV • YOLO • AWS Rekognition • Azure Computer Vision  
+**NLP:** BERT • Intent Classification • NER • Text Classification • Semantic Search
 
+### 🔍 RAG & Vector Search
+**Vector Databases:** ChromaDB • FAISS • Pinecone  
+**Architectures:** RAG Systems • Embeddings • Semantic Search
+
+### ☁️ Cloud Platforms
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=flat&logo=microsoftazure&logoColor=white)
+![GCP](https://img.shields.io/badge/GCP-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white)
+![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
+
+**AWS:** SageMaker • Bedrock • Lambda • S3 • EC2 • DynamoDB • Rekognition  
+**Azure:** Azure ML • Cognitive Services • Computer Vision • Functions • DevOps  
+**GCP:** Vertex AI • Gemini API • NotebookLM  
+**Snowflake:** Cortex AI • Snowpark • ML Functions • Time-Series Analysis
+
+### 🚀 MLOps & DevOps
+![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white)
+
+**MLOps:** MLflow (Versioning, Tracking) • Model Deployment/Monitoring • Lifecycle Management  
+**DevOps:** Docker • Jenkins • GitHub Actions • Azure DevOps • CI/CD Pipelines  
+**Code Quality:** SonarQube • Penetration Testing • Vulnerability Management
+
+### 💾 Data Engineering & Databases
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=flat&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-%23DD0031.svg?style=flat&logo=redis&logoColor=white)
+
+**Databases:** PostgreSQL • DynamoDB • Redis • Snowflake  
+**Tools:** Pandas • NumPy • Jupyter • Poetry  
+**Pipelines:** ELT/ETL Design • Data Quality • Feature Engineering • Data Governance
+
+### 🔧 Development & APIs
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
+![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
+![C++](https://img.shields.io/badge/C++-%2300599C.svg?style=flat&logo=c%2B%2B&logoColor=white)
+
+**Languages:** Python • JavaScript • TypeScript • SQL • C++  
+**Frameworks:** FastAPI • Flask • RESTful APIs  
+**Low-Code ML:** H2O.ai • SageMaker Canvas • Azure ML Studio
+
+### 🔒 Security & Governance
+**Certifications:** CISSP • CCSP • AWS Security Specialty  
+**Practices:** Application Security Architecture • OWASP • Penetration Testing  
+**AI Governance:** Responsible AI • Bias Mitigation • Data Privacy & Compliance
+
+### 📊 Visualization & BI
+**Tools:** Power BI • Tableau • Streamlit • Gradio • SQL Dashboards
+
+### 🤝 AI-Assisted Development
+![GitHub Copilot](https://img.shields.io/badge/GitHub_Copilot-000000?style=flat&logo=github&logoColor=white)
+![VSCode](https://img.shields.io/badge/VS_Code-0078d7.svg?style=flat&logo=visual-studio-code&logoColor=white)
+
+**AI Assistants:** Claude • ChatGPT • Gemini • GitHub Copilot  
+**IDE:** VSCode • Poetry • pipx
+
+### 📋 Leadership & Methodology
+**Management:** Jira • Agile • Sprint Planning  
+**Leadership:** Architecture Reviews • Team Leadership • SVP Presentations • Technical Mentorship  
+**Strategy:** ROI Modeling • Business Cases • Strategic Roadmaps
 ## 📊 GitHub Stats
 
 ![martymcenroe's GitHub stats](https://github-readme-stats.vercel.app/api?username=martymcenroe&show_icons=true&theme=radical)
