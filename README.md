@@ -92,7 +92,7 @@ This is my active portfolio of enterprise-ready projects. Each repository is bui
 
 ## 📊 GitHub Stats
 
-<table border="0"> <tr> <td valign="middle"> <img src="https://github-readme-stats.vercel.app/api?username=martymcenroe&show_icons=true&theme=radical&hide_rank=true" alt="martymcenroe's GitHub stats" /> </td> <td valign="middle"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=martymcenroe&theme=radical&layout=compact" alt="martymcenroe's top languages" /> </td> </tr> </table>
+<table border="0"> <tr> <td valign="middle"> <img src="https://github-readme-stats.vercel.app/api?username=martymcenroe&show_icons=true&theme=radical&cache_bust=2025&hide_rank=true" alt="martymcenroe's GitHub stats" /> </td> <td valign="middle"> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=martymcenroe&theme=radical&cache_bust=2025&layout=compact" alt="martymcenroe's top languages" /> </td> </tr> </table>
 
 ## 📬 Connect with Me
 
