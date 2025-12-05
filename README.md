@@ -6,9 +6,44 @@ My passion is architecting **robust**, high-value solutions. My architectural ph
 
 This GitHub is my professional portfolio, showcasing enterprise-ready projects in Generative AI, MLOps, and Cloud-Native Security.
 
-## 🚀 My Portfolio: From Architecture to Execution
+## 🚀 Engineering Portfolio
 
-This is my active portfolio of enterprise-ready projects. Each repository is built as a complete architectural solution, not just a script.
+### 🔭 Active Engineering
+**[Aletheia](https://github.com/martymcenroe/Aletheia) — Serverless AI Context Analysis Engine**
+A specialized Chrome Extension backend built on **AWS Lambda** and **LangGraph**.
+* **Architecture:** Event-driven, "Scale-to-Zero" Serverless (Python 3.12).
+* **Engineering:** "Bare Metal" infrastructure (Bash/AWS CLI) with no abstraction layers.
+* **AI Logic:** Stateful Agentic workflows with local guardrails and validation.
+* **Focus:** Bridging static web content with semantic AI understanding.
+
+---
+
+### ✅ Completed Prototypes & Tools
+**[GlucoPulse.ai (AI Health)](https://github.com/martymcenroe/GlucoPulse.ai)**
+A comprehensive **Reference Implementation** for a health data platform.
+* **Focus:** Demonstrating a complete Model Lifecycle (MLOps) for time-series data.
+* **Tech:** Integrated Snowflake Cortex, Azure ML, and LangChain for GenAI-driven RAG.
+
+**[NEC 2017 Analyzer](https://github.com/martymcenroe/nec2017-analyzer)**
+A domain-specific **Personal Utility** for parsing National Electric Code data.
+* **Context:** Built to automate code analysis tasks relevant to my Professional Engineer (PE) work.
+* **Tech:** Python-based parsing and analysis scripts utilizing LLM assistance for data extraction.
+
+---
+
+### 📐 Architecture & System Design
+**[Iconoscope](https://github.com/martymcenroe/iconoscope)**
+**Enterprise Architecture Specification** for an Azure-native video analysis platform.
+* **Status:** Architecture & Design Phase.
+* **Scope:** Defines the strategy for a governed MLOps lifecycle (Azure DevOps, MLflow) and a statistically-backed GenAI pipeline.
+* **Goal:** Blueprint for scalable video insight synthesis.
+
+## 🛠️ Technology Stack
+* **Engineering:** "Bare Metal" infrastructure (Bash/AWS CLI) with no abstraction layers.
+* **AI Logic:** Stateful Agentic workflows with local guardrails and validation.
+* **Focus:** Bridging static web content with semantic AI understanding.
+
+---
 
 * **[Iconoscope (AI Video Analysis)](https://github.com/martymcenroe/iconoscope):** An enterprise-ready, Azure-native AI video analysis platform. This project demonstrates a complete **AI strategy**, a governed **MLOps lifecycle** (Azure DevOps, MLflow), and a **statistically-backed** GenAI (RAG) pipeline for insight synthesis.
 
