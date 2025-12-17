@@ -14,6 +14,7 @@ This is my running log of hard-won lessons, gotchas, and rules I've established 
 | 2025-12-08 | Squash merging alters commit SHAs, triggering "not fully merged" warnings on local delete. | Ignore warning if PR merged; use `git branch -D` for cleanup. |
 | 2025-12-11 | The first branch pushed becomes default; cannot PR branch into itself. | Initialize and push `main` upstream before creating feature branches. |
 | 2025-12-16 | Merged branches accumulate as effluvium without explicit cleanup. | Enable `delete_branch_on_merge` on all repos. |
+| 2025-12-17 | Claude Code works fine in Git Bash on Windows as of v2.0.71. | Test compatibility yourself before trusting outdated articles. |
 
 ## GitHub CLI (`gh`)
 
