@@ -11,10 +11,13 @@ This is my running log of hard-won lessons, gotchas, and rules I've established 
 | Date | Lesson | Rule/Action |
 |:-----|:-------|:------------|
 | 2025-12-08 | Branching from a stale `main` causes files created *after* that point to vanish from the workspace. | **Always** `git checkout main && git pull` before creating a new branch. |
-| 2025-12-08 | Squash merging alters commit SHAs, triggering "not fully merged" warnings on local delete. | Ignore warning if PR merged; use `git branch -D` for cleanup. |
+| 2025-12-08 | Squash merge creates new commit SHA on main; original branch commits still exist but aren't "merged" by SHA comparison. `git log main..branch` shows commits even after merge. | Use `git merge-base --is-ancestor <merge-commit> main` to verify squash-merged work is in main. Ignore "not fully merged" warning if PR merged; use `git branch -D` for cleanup. |
 | 2025-12-11 | The first branch pushed becomes default; cannot PR branch into itself. | Initialize and push `main` upstream before creating feature branches. |
 | 2025-12-16 | Merged branches accumulate as effluvium without explicit cleanup. | Enable `delete_branch_on_merge` on all repos. |
 | 2025-12-17 | Claude Code works fine in Git Bash on Windows as of v2.0.71. | Test compatibility yourself before trusting outdated articles. |
+| 2025-12-20 | `git branch -r` shows cached remote refs, not live GitHub state. After `delete_branch_on_merge` triggers, local still shows "zombie" branches. | Run `git fetch --prune` before any branch audit. |
+| 2025-12-20 | Branches are pointers, not history. Deleting a merged branch loses nothing — work is preserved in merge commits and PR history. | Delete merged branches confidently; recover via PR page or `git reflog` if needed. |
+| 2025-12-20 | `git stash` saves uncommitted changes; `git stash pop` restores them. Useful when you edit on wrong branch. | Stash before switching branches if you have uncommitted work in the wrong place. |
 
 ## GitHub CLI (`gh`)
 
@@ -22,6 +25,7 @@ This is my running log of hard-won lessons, gotchas, and rules I've established 
 |:-----|:-------|:------------|
 | 2025-12-04 | `gh issue close` strictly accepts only 1 argument. | Use bash loops for bulk ops: `for id in x y; do gh issue close $id; done` |
 | 2025-12-16 | Bulk repo settings changes require loops + `gh api --method PATCH`. | Use `--input -` with heredoc for nested JSON payloads. |
+| 2025-12-20 | `gh pr list --state closed --json mergedAt,mergeCommit` reveals whether PRs were actually merged vs. just closed. | Use this to audit if branch work reached main before deleting. |
 
 ## GitHub Security & Settings
 
@@ -63,7 +67,6 @@ This is my running log of hard-won lessons, gotchas, and rules I've established 
 ## Adding New Lessons
 
 When something bites you, add it here immediately. Format:
-
 ```markdown
 | YYYY-MM-DD | What happened / what I learned | The rule I now follow |
 ```
@@ -72,4 +75,4 @@ Resist the urge to categorize perfectly on first write — just capture it. Reor
 
 ---
 
-*Last updated: 2025-12-16*
+*Last updated: 2025-12-20*
