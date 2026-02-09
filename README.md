@@ -115,8 +115,8 @@ Enterprise Architecture Specification for an Azure-native video analysis platfor
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=martymcenroe&show_icons=true&theme=radical&cache_bust=2026&hide_rank=true" alt="GitHub stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=martymcenroe&theme=radical&cache_bust=2026&layout=compact" alt="Top languages" />
+  <img src="https://github-readme-stats-marty-mcenroes-projects.vercel.app/api?username=martymcenroe&show_icons=true&theme=radical&hide_rank=true" alt="GitHub stats" />
+  <img src="https://github-readme-stats-marty-mcenroes-projects.vercel.app/api/top-langs/?username=martymcenroe&theme=radical&layout=compact" alt="Top languages" />
 </p>
 
 ## Connect with Me
