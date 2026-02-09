@@ -26,6 +26,32 @@ A specialized Chrome Extension backend built on **AWS Lambda** and **LangGraph**
 
 ---
 
+### Domain Intelligence
+
+**[AI Power Systems Compendium](https://github.com/martymcenroe/ai-power-systems-compendium) — AI/ML for the Bulk Power System**
+Curated collection of AI/ML resources for the Bulk Power System (BPS) and utility sector. Bridges my Professional Engineer background with artificial intelligence applications.
+
+**[Best of PES AI](https://github.com/martymcenroe/best-of-pes-ai) — Ranked Open-Source AI for Power & Energy**
+Ranked list of open-source AI/ML projects for IEEE Power & Energy Society domains. Tracks the leading repositories at the intersection of machine learning and grid infrastructure.
+
+---
+
+### Research & Commercial Pipeline
+
+**Sentinel** — Agent-context permission architecture for autonomous AI systems. RFC and proof of concept.
+
+**Talos** — Agentic analysis platform for talent evaluation. *Access by request.*
+
+**Agora** — Strategy, key management, and economics layer for a production AI system.
+
+**[athleet.dev](https://athleet.dev)** — Algorithmic pattern recognition tutoring and assessment platform. *ThriveTech.ai product.*
+
+**GentlePersuader** — Computational emotional contagion research. 15,000+ subjects, three APIs, novel framework. UIUC CS597. *Publication pending.*
+
+**Rolling Stop** — Probability-based strategy game with multi-agent AI opponents. *Steam target.*
+
+---
+
 ### Tools & Utilities
 
 **[Unleashed](https://github.com/martymcenroe/unleashed) — Permission Bypass for Claude Code**
@@ -34,11 +60,8 @@ Auto-approval wrapper for Claude Code that enables semi-autonomous agent session
 **[Clio](https://github.com/martymcenroe/Clio) — Gemini Conversation Extractor**
 Chrome extension for extracting and archiving Gemini conversations. Preserves AI interaction history for long-term recall and cross-session analysis.
 
-**[RCA-PDF Extraction Pipeline](https://github.com/martymcenroe/RCA-PDF-extraction-pipeline) — Document AI Pipeline**
-Automated invoice extraction and processing pipeline using AI vision models. Handles structured data capture from scanned PDFs with validation and output formatting.
-
-**[AI Power Systems Compendium](https://github.com/martymcenroe/ai-power-systems-compendium) — Domain Resource Collection**
-Curated collection of AI/ML resources for the Bulk Power System (BPS) and utility sector. Bridges my Professional Engineer background with artificial intelligence applications.
+**[RCA-PDF Extraction Pipeline](https://github.com/martymcenroe/RCA-PDF-extraction-pipeline) — Geological Document Intelligence**
+Automated extraction pipeline for oil & gas core analysis reports. Analyzes hundreds of page PDFs in sub-second times, extracting structured sample data from embedded-text PDFs using PyMuPDF — no OCR needed. Roadmap includes forensic image analysis (G-FIAT) and multi-repository data ingestion.
 
 ---
 
