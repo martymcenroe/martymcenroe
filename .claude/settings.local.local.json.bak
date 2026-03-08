@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /c/Users/mcwiz/Projects/martymcenroe status)",
+      "Bash(git -C /c/Users/mcwiz/Projects/martymcenroe log --oneline -5)",
+      "Bash(git -C /c/Users/mcwiz/Projects/martymcenroe add ENGINEERING-JOURNAL.md)",
+      "Bash(git -C /c/Users/mcwiz/Projects/martymcenroe commit -m \"$(cat <<''EOF''\ndocs: Add Claude Code Windows compatibility lesson\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n)\")"
+    ]
+  }
+}
