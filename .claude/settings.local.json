@@ -1,0 +1,49 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(onboard)",
+      "Skill(cleanup)",
+      "Skill(audit)",
+      "Skill(friction)",
+      "Skill(code-review)",
+      "Skill(exit)",
+      "WebSearch",
+      "WebFetch",
+      "Bash(git:*)",
+      "Bash(gh:*)",
+      "Bash(poetry:*)",
+      "Bash(npm:*)",
+      "Bash(npx:*)",
+      "Bash(node:*)",
+      "Bash(cat:*)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(rm:*)",
+      "Bash(cp:*)",
+      "Bash(mv:*)",
+      "Bash(chmod:*)",
+      "Bash(touch:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(find:*)",
+      "Bash(head:*)",
+      "Bash(tail:*)",
+      "Bash(diff:*)",
+      "Bash(curl:*)",
+      "Bash(date:*)",
+      "Bash(bash:*)",
+      "Bash(./tools/**:*)",
+      "Bash(/c/Users/mcwiz/Projects/**:*)"
+    ],
+    "deny": [
+      "Read(.env)",
+      "Read(.env.*)",
+      "Bash(git reset --hard:*)",
+      "Bash(git push --force:*)",
+      "Bash(git push -f:*)",
+      "Bash(pip install:*)",
+      "Bash(rm -rf /:*)",
+      "Bash(eval:*)"
+    ]
+  }
+}
