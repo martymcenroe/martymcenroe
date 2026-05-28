@@ -1,139 +1,123 @@
-### Hi, I'm Marty McEnroe: Principal AI Architect & Enterprise Strategist
+# Hi, I'm Marty McEnroe — Principal AI Architect & ThriveTech.ai Founder
 
-I am an **Enterprise Architect** and **AI Strategist** with a deep background in engineering, cloud infrastructure, and application security (Professional Engineer, 21 patents, former Director at AT&T) focused on designing and executing secure, scalable, and business-driven AI strategies.
+**Licensed Professional Engineer** · **IEEE PES SC-5 (AI Readiness) Co-Chair** · **22 issued U.S. patents + 9 pending** · **CISSP, CCSP**
 
-My current focus is **multi-agent orchestration**—coordinating multiple AI agents across repositories with automated quality gates, cross-model review workflows (Claude + Gemini), and deterministic build pipelines.
+I build production-grade agentic AI systems. Five-stage multi-agent orchestration. Hybrid-cloud autonomous agents. Adversarial-hardened consumer AI. Active applied research in AI agent safety. IEEE-SA standards leadership.
 
-**[martymcenroe.ai](https://martymcenroe.ai)** | **[LinkedIn](https://linkedin.com/in/martymcenroe)**
-
-## Engineering Portfolio
-
-### Active Engineering
-
-**[AssemblyZero](https://github.com/martymcenroe/AssemblyZero) — Multi-Agent Orchestration Framework**
-A parameterized configuration system for coordinating Claude Code and Gemini agents across multiple repositories simultaneously.
-* **Architecture:** Worktree-isolated parallel agents with automated quality gates and Gemini-as-reviewer.
-* **Tooling:** Automated audits, permission hygiene, usage monitoring, and deterministic build pipelines.
-* **Scale:** Manages 3–4 concurrent agents across 4+ repos with session-level quota tracking.
-* **Stack:** Python, LangChain/LangGraph 1.0, Poetry, GitHub Actions.
-
-**[Aletheia](https://github.com/martymcenroe/Aletheia) — Serverless AI Context Analysis Engine**
-A specialized Chrome Extension backend built on **AWS Lambda** and **LangGraph**.
-* **Architecture:** Event-driven, "Scale-to-Zero" Serverless (Python 3.12).
-* **Engineering:** "Bare Metal" infrastructure (Bash/AWS CLI) with no abstraction layers.
-* **AI Logic:** Stateful Agentic workflows with local guardrails and validation.
-* **Focus:** Bridging static web content with semantic AI understanding.
+**[martymcenroe.ai](https://martymcenroe.ai)** · **[ThriveTech.ai](https://thrivetech.ai)** · **[LinkedIn](https://linkedin.com/in/martymcenroe)**
 
 ---
 
-### Domain Intelligence
+## Production Platforms (ThriveTech.ai)
 
-**[AI Power Systems Compendium](https://github.com/martymcenroe/ai-power-systems-compendium) — AI/ML for the Bulk Power System**
-Curated collection of AI/ML resources for the Bulk Power System (BPS) and utility sector. Bridges my Professional Engineer background with artificial intelligence applications.
+### [AssemblyZero](https://github.com/martymcenroe/AssemblyZero) — Multi-Agent Orchestration with Cross-Vendor Adversarial Verification
 
-**[Best of PES AI](https://github.com/martymcenroe/best-of-pes-ai) — Ranked Open-Source AI for Power & Energy**
-Ranked list of open-source AI/ML projects for IEEE Power & Energy Society domains. Tracks the leading repositories at the intersection of machine learning and grid infrastructure.
+Five-stage LangGraph StateGraph pipeline (Triage → Design → Spec → TDD → PR) coordinating 12+ concurrent Claude and Gemini agents with typed state, conditional routing, retry-with-backoff, and crash recovery via serialized checkpoints. Cross-vendor adversarial verification — Claude generates, Gemini reviews — catches hallucinations across model families. Five-layer evaluation framework: execution-based verification (pytest exit codes drive routing), AST structural analysis, cross-model review, stagnation detection, longitudinal learning.
 
----
-
-### Research & Commercial Pipeline
-
-**Sentinel** — Agent-context permission architecture for autonomous AI systems. RFC and proof of concept.
-
-**Talos** — Agentic analysis platform for talent evaluation. *Access by request.*
-
-**Agora** — Strategy, key management, and economics layer for a production AI system.
-
-**[athleet.dev](https://athleet.dev)** — Algorithmic pattern recognition tutoring and assessment platform. *ThriveTech.ai product.*
-
-**GentlePersuader** — Computational emotional contagion research. 15,000+ subjects, three APIs, novel framework. UIUC CS597. *Publication pending.*
-
-**Rolling Stop** — Probability-based strategy game with multi-agent AI opponents. *Steam target.*
+**Scale:** 740 issues processed · 88% closure rate · 434 PRs merged · 5,583 tests
+**Stack:** Python · LangGraph 1.0 · DynamoDB · GitHub Actions
 
 ---
 
-### Tools & Utilities
+### [Hermes](https://github.com/martymcenroe/Hermes) — Autonomous Production Agent with RAG
 
-**[Unleashed](https://github.com/martymcenroe/unleashed) — Permission Bypass for Claude Code**
-Auto-approval wrapper for Claude Code that enables semi-autonomous agent sessions with countdown-based safety gates. Built for power users running multiple agents who need to step away from the keyboard.
+Production autonomous email agent handling ~50 concurrent conversations with zero human intervention. Finite state machine (9 states, 10 intents) governs persona and behavior. Two-stage LLM pipeline: Haiku for intent classification and entity extraction, Sonnet for generation. Embedding-based RAG on Cloudflare Vectorize (384-dim cosine similarity). Hybrid-cloud boundary at SQS — Cloudflare Worker ingests, AWS Lambda processes — chosen for autonomous-agent reliability: at-least-once delivery, retry-on-failure, dead-letter quarantine. Eight quality gates: hostile-tone detection, PII fabrication safeguards, anti-hallucination checks.
 
-**[Clio](https://github.com/martymcenroe/Clio) — Gemini Conversation Extractor**
-Chrome extension for extracting and archiving Gemini conversations. Preserves AI interaction history for long-term recall and cross-session analysis.
-
-**[RCA-PDF Extraction Pipeline](https://github.com/martymcenroe/RCA-PDF-extraction-pipeline) — Geological Document Intelligence**
-Automated extraction pipeline for oil & gas core analysis reports. Analyzes hundreds of page PDFs in sub-second times, extracting structured sample data from embedded-text PDFs using PyMuPDF — no OCR needed. Roadmap includes forensic image analysis (G-FIAT) and multi-repository data ingestion.
+**Scale:** 906 tests
+**Stack:** Cloudflare Workers · AWS Lambda · SQS · D1 · Vectorize · Claude API
 
 ---
 
-### Completed Prototypes
+### [Aletheia](https://github.com/martymcenroe/Aletheia) — Adversarial-Hardened Consumer AI with Layered Guardrails
 
-**[GlucoPulse](https://github.com/martymcenroe/GlucoPulse) — AI Health Platform**
-Reference implementation for a health data platform demonstrating a complete MLOps lifecycle for time-series data. Integrates Snowflake Cortex, Azure ML, and LangChain for GenAI-driven RAG.
+Seven-stage handler pipeline for consumer-facing AI product with independent short-circuiting at each stage. Two-layer guardrail system: deterministic denylist followed by semantic LLM classifier with five-category taxonomy returning confidence scores. Tiered model routing: Haiku as default classifier; Opus 4.6 invoked as verifier only when Haiku flags a candidate prompt-injection attempt. Adversarial test suite covering eight attack vectors including prompt injection, jailbreaks, and homoglyph evasion. Privacy-constrained observability — operational metadata only, no content logging.
 
-**[NEC 2017 Analyzer](https://github.com/martymcenroe/nec2017-analyzer) — Domain Tool**
-Python-based parsing and analysis tool for the National Electric Code, built to automate code analysis tasks relevant to Professional Engineer (PE) work.
+**Stack:** AWS Lambda · Bedrock · DynamoDB · CloudFront · Chrome and Firefox extensions
 
 ---
 
-### Architecture & System Design
+### [Clio](https://github.com/martymcenroe/Clio) — Privacy-First LLM Conversation Extractor
 
-**[Iconoscope](https://github.com/martymcenroe/iconoscope) — AI Video Analysis Platform**
-Enterprise Architecture Specification for an Azure-native video analysis platform. Defines the strategy for a governed MLOps lifecycle (Azure DevOps, MLflow) and a statistically-backed GenAI pipeline for insight synthesis.
+Chrome extension for extracting full Gemini, Claude, and ChatGPT conversations to structured JSON with images. Strict-local processing, no telemetry. Designed around architectural-trust principles — capability declared in manifest, anything not declared is denied by the browser; the privacy claim doesn't depend on Clio's code *promising* not to call out, it depends on the browser *refusing* the call.
 
-## Technology Stack
+**Available on Chrome Web Store** *(link forthcoming — pending publication)*
 
-### AI/ML & Generative AI
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-yellow)
+---
 
-**Frameworks:** PyTorch • TensorFlow • scikit-learn • Hugging Face Transformers
-**LLMs:** Claude (Opus/Sonnet) • Gemini • GPT-4 • Prompt Engineering
-**Agent Systems:** LangChain • LangGraph • LangSmith • Multi-Agent Orchestration
-**Computer Vision:** OpenCV • YOLO • AWS Rekognition • Azure Computer Vision
-**NLP:** BERT • Intent Classification • NER • Text Classification • Semantic Search
+## Private & In-Development (ThriveTech.ai)
 
-### RAG & Vector Search
-**Vector Databases:** ChromaDB • FAISS • Pinecone
-**Architectures:** RAG Systems • Embeddings • Semantic Search
+### Chiron — General-Purpose AI Tutor
 
-### Cloud Platforms
-![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-%230072C6.svg?style=flat&logo=microsoftazure&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-%234285F4.svg?style=flat&logo=google-cloud&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat&logo=snowflake&logoColor=white)
+Custom adaptive-study platform with multiple modules in private production. Currently available modules:
 
-**AWS:** SageMaker • Bedrock • Lambda • S3 • EC2 • DynamoDB • Rekognition
-**Azure:** Azure ML • Cognitive Services • Computer Vision • Functions • DevOps
-**GCP:** Vertex AI • Gemini API • NotebookLM
-**Snowflake:** Cortex AI • Snowpark • ML Functions • Time-Series Analysis
+- **IAPP AIGP** — AI Governance Professional certification preparation
+- **Patent Bar** — Patent Agent / Patent Attorney exam preparation
+- **AWS Security Specialty**
+- **AWS Solutions Architect Professional**
 
-### MLOps & DevOps
-![Docker](https://img.shields.io/badge/Docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-%232671E5.svg?style=flat&logo=githubactions&logoColor=white)
+Contact: **chiron@thrivetech.ai**
 
-**MLOps:** MLflow (Versioning, Tracking) • Model Deployment/Monitoring • Lifecycle Management
-**DevOps:** Docker • Jenkins • GitHub Actions • Azure DevOps • CI/CD Pipelines
-**Code Quality:** SonarQube • Penetration Testing • Vulnerability Management
+### Heuriskon — Applied Math + LLM Research
 
-### Development & APIs
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python&logoColor=ffdd54)
-![TypeScript](https://img.shields.io/badge/TypeScript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white)
+A framework for LLM-assisted empirical discovery of separating predicates over mathematical objects. Private preview. Where automated reasoning meets exploratory mathematics.
 
-**Languages:** Python • JavaScript • TypeScript • SQL • C++
-**Frameworks:** FastAPI • Flask • RESTful APIs
-**AI-Assisted Development:** Claude Code • Gemini • GitHub Copilot
+---
 
-### Security & Governance
-**Certifications:** CISSP • CCSP • AWS Security Specialty
-**Practices:** Application Security Architecture • OWASP • Penetration Testing
-**AI Governance:** Responsible AI • Bias Mitigation • Data Privacy & Compliance
+## Active Research
 
-### Leadership & Methodology
-**Management:** Jira • Agile • Sprint Planning
-**Leadership:** Architecture Reviews • Team Leadership • SVP Presentations • Technical Mentorship
-**Strategy:** ROI Modeling • Business Cases • Strategic Roadmaps
+### Sentinel-RFC — Agent-Context Permission Architecture
+
+Active applied-research program proposing agent-context permission bits as an architectural alternative to the "agent inherits user permissions" model that creates excessive blast radius for autonomous AI agents. Intentionally open work — goal is community adoption of the permission mechanism. Scope includes manifest specification, capability authorization design, and prototype work targeting filesystem-level enforcement.
+
+---
+
+## IEEE Leadership & Standards
+
+- **Co-Chair**, IEEE PES Long Range Planning Committee Subcommittee 5 — Emerging Technologies, Digitalization, and AI Readiness. *Vision Document due July 2026 PES General Meeting.*
+- **Vice Chair**, IEEE-SA IC25-004-01 — *Industry Standards for Grid Readiness for Data Center Deployment*. Published 29 January 2026: [ieeexplore.ieee.org/document/11366058](https://ieeexplore.ieee.org/document/11366058). Triggered an IEEE SETCom study group developing PARs for five new IEEE data center standards.
+- **Section Chair and Editor**, IEEE-SA IC25-004-02 Section 5 — *Data Center Design for IT Load Protection: Consumption Patterns and Disturbance Response*. Publishing 2026.
+
+---
+
+## Domain Knowledge Repositories
+
+- **[best-of-pes-ai](https://github.com/martymcenroe/best-of-pes-ai)** — Ranked open-source AI/ML projects for IEEE Power & Energy Society domains. Tracks the leading repositories at the intersection of machine learning and grid infrastructure.
+- **[ai-power-systems-compendium](https://github.com/martymcenroe/ai-power-systems-compendium)** — Curated collection of AI/ML resources for the Bulk Power System and utility sector.
+
+---
+
+## Engage ThriveTech.ai
+
+- **Custom AI builds** — applied AI architecture for production-grade requirements.
+- **Architecture advisory** — AI governance frameworks, agent operational safety, AI Architecture Review Board precedent at Fortune 10 scale.
+- **Standards consultation** — IEEE-PES SC-5 (AI) Co-Chair, IEEE-SA IC25-004 series Vice Chair and Section Chair. Critical-infrastructure AI safety.
+- **Chiron module access** — `chiron@thrivetech.ai`
+
+Recent engagements: Texas Department of Transportation (76-page state-wide AI strategic plan, 32 epics, 213 use cases, governance framework, AI ethics framework).
+
+Contact: **president@thrivetech.ai**
+
+---
+
+## Credentials
+
+- **Licensed Professional Engineer (P.E.)** — State of Texas (May 2025)
+- **IEEE Senior Member** · **Wireless Communications Professional (WCP)**
+- **CISSP** · **CCSP** — (ISC)²
+- **AWS — 7 certifications** including Machine Learning Specialty, Solutions Architect Professional, Data Analytics Specialty, Data Engineer Associate
+- **Microsoft Azure** — DevOps Engineer Expert · AI Fundamentals · Security, Compliance & Identity Fundamentals
+- **PMP** · **PgMP** — Project Management Institute
+- **22 issued U.S. patents + 9 pending** spanning AI, cloud computing, cybersecurity, IoT, and wireless communications. **Two U.S. patents filed 2026 — AI Agent Safety.**
+
+---
+
+## Education
+
+- **Master of Computer Science** — University of Illinois Urbana-Champaign (2017)
+- **Master of Science, Electrical Engineering** — University of Maryland, College Park
+- **Bachelor of Science, Electrical Engineering** — University of Maryland, College Park
+
+---
 
 ## GitHub Stats
 
@@ -142,9 +126,12 @@ Enterprise Architecture Specification for an Azure-native video analysis platfor
   <img src="https://github-readme-stats-marty-mcenroes-projects.vercel.app/api/top-langs/?username=martymcenroe&theme=radical&layout=compact" alt="Top languages" />
 </p>
 
-## Connect with Me
+---
 
-Open to discussing complex architectural challenges, AI strategy, and leadership opportunities.
+## Connect
 
-* **[martymcenroe.ai](https://martymcenroe.ai)**
-* **[Connect with me on LinkedIn](https://linkedin.com/in/martymcenroe)**
+Open to discussing applied AI architecture, agent operational safety in regulated environments, AI governance for critical infrastructure, and IEEE standards work.
+
+- **[martymcenroe.ai](https://martymcenroe.ai)** · **[ThriveTech.ai](https://thrivetech.ai)**
+- **[LinkedIn](https://linkedin.com/in/martymcenroe)**
+- **president@thrivetech.ai**
