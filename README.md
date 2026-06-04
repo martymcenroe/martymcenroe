@@ -40,7 +40,7 @@ Seven-stage handler pipeline for consumer-facing AI product with independent sho
 
 Chrome extension for extracting full Gemini, Claude, and ChatGPT conversations to structured JSON with images. Strict-local processing, no telemetry. Designed around architectural-trust principles — capability declared in manifest, anything not declared is denied by the browser; the privacy claim doesn't depend on Clio's code *promising* not to call out, it depends on the browser *refusing* the call.
 
-**Available on Chrome Web Store** *(link forthcoming — pending publication)*
+**[Available on Chrome Web Store](https://thrivetech.ai/clio)**
 
 ---
 
