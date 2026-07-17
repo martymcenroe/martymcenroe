@@ -4,7 +4,7 @@
 
 I build production-grade agentic AI systems. Five-stage multi-agent orchestration. Hybrid-cloud autonomous agents. Adversarial-hardened consumer AI. Active applied research in AI agent safety. IEEE-SA standards leadership.
 
-**[martymcenroe.ai](https://martymcenroe.ai)** · **[ThriveTech.ai](https://thrivetech.ai)** · **[LinkedIn](https://linkedin.com/in/martymcenroe)**
+**[martymcenroe.ai](https://martymcenroe.ai)** · **[ThriveTech.ai](https://thrivetech.ai)** · **[LinkedIn](https://linkedin.com/in/martymcenroe)** · **[The Age of More](https://theageofmore.substack.com)**
 
 ---
 
@@ -19,7 +19,7 @@ Five-stage LangGraph StateGraph pipeline (Triage → Design → Spec → TDD →
 
 ---
 
-### [Hermes](https://github.com/martymcenroe/Hermes) — Autonomous Production Agent with RAG
+### [Hermes](https://github.com/martymcenroe/HermesWiki) — Autonomous Production Agent with RAG
 
 Production autonomous email agent handling ~50 concurrent conversations with zero human intervention. Finite state machine (9 states, 10 intents) governs persona and behavior. Two-stage LLM pipeline: Haiku for intent classification and entity extraction, Sonnet for generation. Embedding-based RAG on Cloudflare Vectorize (384-dim cosine similarity). Hybrid-cloud boundary at SQS — Cloudflare Worker ingests, AWS Lambda processes — chosen for autonomous-agent reliability: at-least-once delivery, retry-on-failure, dead-letter quarantine. Eight quality gates: hostile-tone detection, PII fabrication safeguards, anti-hallucination checks.
 
@@ -134,4 +134,5 @@ Open to discussing applied AI architecture, agent operational safety in regulate
 
 - **[martymcenroe.ai](https://martymcenroe.ai)** · **[ThriveTech.ai](https://thrivetech.ai)**
 - **[LinkedIn](https://linkedin.com/in/martymcenroe)**
+- **[The Age of More](https://theageofmore.substack.com)** — essays on agents, taste, and what not to automate
 - **president@thrivetech.ai**
