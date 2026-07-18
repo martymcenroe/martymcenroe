@@ -122,8 +122,8 @@ Contact: **president@thrivetech.ai**
 ## GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats-marty-mcenroes-projects.vercel.app/api?username=martymcenroe&show_icons=true&theme=radical" alt="GitHub stats" />
-  <img src="https://github-readme-stats-marty-mcenroes-projects.vercel.app/api/top-langs/?username=martymcenroe&theme=radical&layout=compact" alt="Top languages" />
+  <img src="https://github-readme-stats-marty-mcenroes-projects.vercel.app/api?username=martymcenroe&show_icons=true&theme=radical&cache_seconds=3600" alt="GitHub stats" />
+  <img src="https://github-readme-stats-marty-mcenroes-projects.vercel.app/api/top-langs/?username=martymcenroe&theme=radical&layout=compact&cache_seconds=3600" alt="Top languages" />
 </p>
 
 ---
