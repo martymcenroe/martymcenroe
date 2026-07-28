@@ -2,3 +2,7 @@
 
 # Unleashed session transcripts (auto-generated, untracked)
 data/unleashed/
+
+# Machine-local Claude Code config -- never track
+.claude/settings.local.json
+.claude/*.json.bak
