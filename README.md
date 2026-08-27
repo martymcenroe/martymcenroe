@@ -10,21 +10,27 @@ I build production-grade agentic AI systems. Five-stage multi-agent orchestratio
 
 ## Production Platforms (ThriveTech.ai)
 
+### [Palaestra](https://palaestra.thrivetech.ai) — Grid-Interface Simulation Scored Against a Certified Optimum
+
+You run a data center at the grid interface for a simulated day: buy power, charge and discharge a battery, curtail load, and answer events as they arrive. Every play is scored against a certified optimal line, so "how well did I do" has an exact answer instead of a leaderboard-relative one.
+
+The architecture splits on where the physics live. Heavy derivation happens offline in a Python compiler that emits scenario packs; the runtime engine is deterministic bookkeeping in TypeScript. Scenarios are data the platform loads, never code it ships — a new scenario is a compiled pack, not a deploy. Replay determinism is contractual and test-enforced: re-scoring a stored action log must reproduce the stored score exactly, so an engine change that breaks reproducibility fails the suite rather than silently rewriting history. The server is authoritative and state is folded rather than stored: an episode's current position is reconstructed by replaying its own action log.
+
+Each pack carries an optimum solved offline by mixed-integer linear programming (HiGHS) and replayed through the same engine that scores play, so a published target is engine-verified rather than asserted. The Peninsula's optimum is $54,220.64.
+
+**Scale:** six scenarios live · 455 tests (377 TypeScript, 78 Python)
+**Stack:** React 19 · TanStack Router · single Cloudflare Worker (Hono) · D1 · R2 · LinkedIn OIDC
+
+**[Public technical documentation](https://github.com/martymcenroe/Exedra/wiki)** — architecture, the competitor contract every player and every agent speaks, and the authentication, network, and privacy surfaces published for inspection.
+
+---
+
 ### [AssemblyZero](https://github.com/martymcenroe/AssemblyZero) — Multi-Agent Orchestration with Cross-Vendor Adversarial Verification
 
 Five-stage LangGraph StateGraph pipeline (Triage → Design → Spec → TDD → PR) coordinating 12+ concurrent Claude and Gemini agents with typed state, conditional routing, retry-with-backoff, and crash recovery via serialized checkpoints. Cross-vendor adversarial verification — Claude generates, Gemini reviews — catches hallucinations across model families. Five-layer evaluation framework: execution-based verification (pytest exit codes drive routing), AST structural analysis, cross-model review, stagnation detection, longitudinal learning.
 
 **Scale:** 740 issues processed · 88% closure rate · 434 PRs merged · 5,583 tests
 **Stack:** Python · LangGraph 1.0 · DynamoDB · GitHub Actions
-
----
-
-### [Hermes](https://github.com/martymcenroe/HermesWiki) — Autonomous Production Agent with RAG
-
-Production autonomous email agent handling ~50 concurrent conversations with zero human intervention. Finite state machine (9 states, 10 intents) governs persona and behavior. Two-stage LLM pipeline: Haiku for intent classification and entity extraction, Sonnet for generation. Embedding-based RAG on Cloudflare Vectorize (384-dim cosine similarity). Hybrid-cloud boundary at SQS — Cloudflare Worker ingests, AWS Lambda processes — chosen for autonomous-agent reliability: at-least-once delivery, retry-on-failure, dead-letter quarantine. Eight quality gates: hostile-tone detection, PII fabrication safeguards, anti-hallucination checks.
-
-**Scale:** 906 tests
-**Stack:** Cloudflare Workers · AWS Lambda · SQS · D1 · Vectorize · Claude API
 
 ---
 
