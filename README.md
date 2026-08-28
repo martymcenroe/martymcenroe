@@ -50,18 +50,30 @@ Chrome extension for extracting full Gemini, Claude, and ChatGPT conversations t
 
 ---
 
-## Private & In-Development (ThriveTech.ai)
+### [Chiron](https://chiron.thrivetech.ai) — Exam Practice Built From the Source Text
 
-### Chiron — General-Purpose AI Tutor
+Two kinds of question bank sit behind one interface. Where a bank is generated, an LLM drafts each question from a published corpus. The question carries the passage it was written from. A human approves it against that passage before any learner sees it. No drafted question enters the bank unreviewed. Where an official pool already exists, the pool is the exam, so it is loaded verbatim with no generation and no review cycle.
 
-Custom adaptive-study platform with multiple modules in private production. Currently available modules:
+Open to any account that signs in:
 
-- **IAPP AIGP** — AI Governance Professional certification preparation
-- **Patent Bar** — Patent Agent / Patent Attorney exam preparation
-- **AWS Security Specialty**
-- **AWS Solutions Architect Professional**
+- **Patent Bar:** USPTO exam preparation from the MPEP, Ninth Edition R-01.2024, with the manual browsable beside the question
+- **IAPP AIGP:** AI Governance Professional certification
+- **Amateur Radio, Technician:** FCC Element 2, NCVEC 2026-2030 pool, verbatim
+- **Amateur Radio, General:** FCC Element 3, NCVEC 2023-2027 pool, verbatim
+- **Amateur Radio, Amateur Extra:** FCC Element 4, NCVEC 2024-2028 pool, verbatim
+
+Sign-in is the gate and there is no anonymous tier. Every route declares who may reach it. A test asserts the public list against an explicit allowlist, so opening a route takes a deliberate edit in two places. Material that is not open is removed in the Worker, never hidden in the browser. It does not cross the wire to an account that may not read it.
+
+**Scale:** five banks open on sign-in · 2,226 tests (1,122 TypeScript, 1,104 Python)
+**Stack:** React · TanStack Router · single Cloudflare Worker · D1 · R2 · LinkedIn and GitHub OIDC
+
+**[Public technical documentation](https://github.com/martymcenroe/Antron/wiki)** covers how a question is built and classified, what is checked before it ships, and what the application stores about you.
 
 Contact: **chiron@thrivetech.ai**
+
+---
+
+## Private & In-Development (ThriveTech.ai)
 
 ### Heuriskon — Applied Math + LLM Research
 
